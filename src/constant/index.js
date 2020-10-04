@@ -1,0 +1,8 @@
+export const FETCHING_REPOS_IN_PROGRESS = "FETCHING_REPOS_IN_PROGRESS"
+export const FETCHING_REPOS_SUCCESS = "FETCHING_REPOS_SUCCESS"
+export const FETCHING_REPOS_FAIL = "FETCHING_REPOS_FAIL"
+export const ADD_FAVORTE = "ADD_FAVORTE"
+export const REMOVE_FAVORTE = "REMOVE_FAVORTE"
+export const ADD_TO_FAVOURTElIST = "Add To Favorite List"
+export const REMOVE_FROM_FAVOURTELIST = "Remove From Favorite List"
+export const KNOW_MORE_ABOUT_CONTRIBUTORS = "Know More About Contributors"

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { Link } from 'react-router-dom'
+
 import { addFavorties, removeFavorties } from '../../actions/favorties'
 import { ADD_TO_FAVOURTElIST, KNOW_MORE_ABOUT_CONTRIBUTORS, REMOVE_FROM_FAVOURTELIST } from '../../constant'
 import CustomButton from '../common/CustomButton'

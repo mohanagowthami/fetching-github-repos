@@ -19,15 +19,15 @@ const fetchingDetails = createSelector(state => state.repos.repos,
 export default function GitHubPublicRepositories() {
     const dispatch = useDispatch()
 
-    const [error, setError] = useState(false)
+
 
     const details = useSelector(state => fetchingDetails(state))
     console.log(details, "details")
-    const { repos, fetchingInProgress, fetchingReposFail } = details
+    const { repos } = details
 
     useEffect(() => {
         dispatch(getRepos())
-    }, [])
+    }, [dispatch])
 
     const renderRepos = () => {
         return repos.map(repo => {
